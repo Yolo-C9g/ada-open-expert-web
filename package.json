@@ -1,0 +1,48 @@
+{
+  "name": "ada-open-expert-web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --mode prod",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "@types/ali-oss": "^6.16.10",
+    "@types/crypto-js": "^4.1.2",
+    "@vitejs/plugin-legacy": "^4.1.1",
+    "ali-oss": "^6.18.1",
+    "alova": "^2.13.1",
+    "core-js": "^3.33.0",
+    "crypto-js": "^4.1.1",
+    "element-plus": "^2.3.14",
+    "lightningcss": "^1.22.0",
+    "pinia": "^2.1.6",
+    "sass": "^1.69.3",
+    "v-viewer": "^3.0.11",
+    "vue": "^3.3.4",
+    "vue-clipboard3": "^2.0.0",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.4",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "typescript": "^5.0.2",
+    "unplugin-auto-import": "^0.11.2",
+    "unplugin-icons": "^0.14.1",
+    "unplugin-vue-components": "^0.22.4",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.5"
+  }
+}

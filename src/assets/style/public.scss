@@ -1,0 +1,60 @@
+@import "colors";
+@import "reset";
+@import "common";
+
+[class*='border'] {
+  position: relative;
+  &::after {
+    content: ' ';
+    position: absolute;
+    pointer-events: none;
+    box-sizing: border-box;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    border: 0 solid $line-color;
+  }
+}
+.border {
+  &-top {
+    &:after {
+      border-top-width: 1px;
+    }
+  }
+  &-right {
+    &:after {
+      border-right-width: 1px;
+    }
+  }
+  &-left {
+    &:after {
+      border-left-width: 1px;
+    }
+  }
+  &-bottom {
+    &:after {
+      border-bottom-width: 1px;
+    }
+  }
+  &-all {
+    &:after {
+      border-width: 1px;
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  width : 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #aa9ae3;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: transparent;
+}

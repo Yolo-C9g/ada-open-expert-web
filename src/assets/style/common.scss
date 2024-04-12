@@ -1,0 +1,60 @@
+// 公用组建样式，建议采用非全局引入模式
+
+// 列表---带有分页
+.list {
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+  }
+
+  &-button {
+    &-item {
+      width: 150px;
+      margin-right: 10px;
+
+      &:last-child {
+        width: auto;
+        margin-right: 0;
+      }
+    }
+  }
+
+  &-title {
+    font-size: 12px;
+  }
+
+  &-item-title {
+    .cell {
+      padding-right: 0;
+    }
+  }
+
+  &-page {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 0;
+    margin-bottom: 50px;
+  }
+}
+
+// 日期范围 
+.public-multy-datapicker {
+  width: 257px !important;
+}
+
+.public-datapicker-search-btn {
+  margin-left: 30px;
+}
+
+.public-margin-left-20 {
+  margin-left: 20px;
+}
+
+// 状态颜色值
+.ok-color {
+  color: #7156d1;
+}
+.fail-color {
+  color: #ff0000
+}
